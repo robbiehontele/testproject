@@ -1,0 +1,67 @@
+/* 
+
+Theme colors:
+ 
+Rood: #BD1D3B
+Geel: #E3CB19
+
+*/
+.nopadding{
+    padding-left: 0px !important;
+    padding-right:0px !important;    
+}
+.bg-red{background-color:#BD1D3B;}
+
+.pelckmanslogo{position:fixed; bottom:0;padding-bottom:20px;}
+.introductie{margin-bottom:30px;}
+.btn-primary{background-color:#FFF;border:3px #E3CB19 solid;color:#2E2E2E;font-size:14px;}
+.btn-primary:hover{background-color:#F1F1F1;border:3px #E3CB19 solid;color:#2E2E2E;font-size:14px;}
+html,body
+{
+  height: 100%;
+}
+
+body{
+	/*background-image:url(../img/backgrounds/459281073.jpg);
+	background-size:cover;*/
+	background-color:#F7F7F7;
+}
+
+.sidebar{
+	color:#2D2D2D;
+	background-image:url(../img/bg.png)
+}
+
+/* Popups en detailschermen */
+.detail{width:800px;}
+.detail p{font-size:13px;font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight:normal;text-align:justify; width:80%;}
+.detail .afbeelding{width:375px;height:247px;background-size:contain;float:left !important;margin-right:45px;background-repeat:no-repeat;}
+.detail .afbeelding:last-child{margin-right:0px;}
+.detail .imgcontainer{margin-top:25px;}
+.detail #colosseum1{background-image:url(../img/bouwwerken/colosseum1.jpg);}
+.detail #colosseum2{background-image:url(../img/bouwwerken/colosseum2.jpg);}
+.detail #theatervanmarcellus1{background-image:url(../img/bouwwerken/theatervanmarcellus1.jpg);}
+.detail #theatervanmarcellus2{background-image:url(../img/bouwwerken/theatervanmarcellus2.jpg);}
+.detail #vestibule1{background-image:url(../img/villa/vestibule1.jpg);}
+.detail #winkel1{background-image:url(../img/villa/winkel1.jpg);}
+.detail #woonkamer1{background-image:url(../img/villa/woonkamer1.jpg);}
+.detail #slaapkamer1{background-image:url(../img/villa/slaapkamer1.jpg);}
+.detail #binnentuin1{background-image:url(../img/villa/binnentuin1.jpg);}
+.detail #binnentuin2{background-image:url(../img/villa/binnentuin2.jpg);}
+.detail #keuken1{background-image:url(../img/villa/keuken1.jpg);}
+.detail #eetkamer1{background-image:url(../img/villa/eetkamer1.jpg);}
+.detail #atrium1{background-image:url(../img/villa/atrium1.jpg);}
+.detail .video{background-color:#000;}
+/* Einde popups en detailschermen */
+
+/* Begin extra info bij afbeeldingen */
+.infobutton{background-color:#040404;background-color: rgb(0, 0, 0);background-color: rgba(0, 0, 0, 0.6); width:30px;height:30px;float:left;border:1px #D9D9D9 solid;}
+.infobutton p{font-family:Verdana, Geneva, sans-serif;color:#FFF !important; text-align:center;cursor:pointer;font-size:16px;padding-left:2px;padding-top:5px;}
+.caption{background-color:#040404;background-color: rgb(0, 0, 0);background-color: rgba(0, 0, 0, 0.6);color:#D9D9D9;padding:10px;font-size:11px;text-align:justify;}
+/* Einde extra info bij afbeeldingen */
+
+/* Gallery */
+.ngg-gallery-list li img {
+height: 100px !important;
+width: 100px;
+}

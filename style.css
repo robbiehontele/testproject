@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/*
+Theme Name: Rome
+Theme URI: http://www.pelckmans.be/memoria
+Description: Dit thema werd ontwikkeld voor de toepassing Memoria - Rome.
+Author: ICT Pelckmans	
+Author URI: http://www.pelckmans.be
+Version: 1.0
+Tags: bootstrap
+*/
+
+@import url('css/bootstrap.min.css'); 
+@import url('css/dashboard.css'); 
+@import url('css/jquery-hotspotter-1.8.0.min.css'); 
+@import url('fancybox/jquery.fancybox.css'); 
+
+/* 
+
+Theme colors:
+ 
+Rood: #BD1D3B
+Geel: #E3CB19
+
+*/
+.nopadding{
+    padding-left: 0px !important;
+    padding-right:0px !important;    
+}
+.bg-red{background-color:#BD1D3B;}
+
+.pelckmanslogo{position:fixed; bottom:0;padding-bottom:20px;}
+.introductie{margin-bottom:30px;}
+.btn-primary{background-color:#FFF;border:2px #E3CB19 solid;color:#2E2E2E;font-size:14px;}
+.btn-primary:hover{background-color:#F1F1F1;border:2px #E3CB19 solid;color:#2E2E2E;font-size:14px;}
+html,body
+{
+  height: 100%;
+}
+
+body{
+	/*background-image:url(../img/backgrounds/459281073.jpg);
+	background-size:cover;*/
+	background-color:#FDFDFD;
+}
+.no-bottom-margin{margin-bottom:0px;padding-bottom:0px;}
+
+/* main */
+
+.main {font-size:13px;}
+.main {paddin-bottom:0px !important;margin-bottom:0px !important;}
+.main .opdracht li{margin-bottom:20px !important; font-size:11px;margin-left:0px;}
+.main .opdracht li:last-child{margin-bottom:0px !important;}
+.main .opdracht ul{margin-left:0px;padding-left:10px;}
+.main .panel-title{font-size:17px !important; color:#585858;}
+.main .panel-heading{padding-bottom:12px;font-size:17px; font-weight:bold;color:#585858;}
+
+
+/* sidebar */
+
+.sidebar{color:#2D2D2D;background-image:url(img/bg.png);}
+.sidebar .btn{padding-top:4px !important;padding-bottom:4px !important;font-size:12px;}
+.sidebar h3{font-size:16px;}
+.sidebar p{font-size:13px;}
+.wp_navigation{margin-top:30px;}
+.wp_navigation ul{list-style:none;padding:0;}
+.wp_navigation li{margin-bottom:8px;}
+.wp_navigation .instruction{color:#6C6C6C;}
+.sidebar hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #ABABAB -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+
+/* Popups en detailschermen */
+.detail{width:800px;}
+.detail p{font-size:13px;font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight:normal;text-align:justify; width:80%;}
+.detail .afbeelding{width:375px;height:247px;background-size:contain;float:left;margin-right:25px;background-repeat:no-repeat;}
+.detail .afbeelding:last-child{margin-right:0px;}
+.detail .imgcontainer{margin-top:25px;}
+.detail #colosseum1{background-image:url(img/bouwwerken/colosseum1.jpg);}
+.detail #colosseum2{background-image:url(img/bouwwerken/colosseum2.jpg);}
+.detail #theatervanmarcellus1{background-image:url(img/bouwwerken/theatervanmarcellus1.jpg);}
+.detail #theatervanmarcellus2{background-image:url(img/bouwwerken/theatervanmarcellus2.jpg);}
+.detail #vestibule1{background-image:url(img/villa/vestibule1.jpg);}
+.detail #winkel1{background-image:url(img/villa/winkel1.jpg);}
+.detail #woonkamer1{background-image:url(img/villa/woonkamer1.jpg);}
+.detail #slaapkamer1{background-image:url(img/villa/slaapkamer1.jpg);}
+.detail #binnentuin1{background-image:url(img/villa/binnentuin1.jpg);}
+.detail #binnentuin2{background-image:url(img/villa/binnentuin2.jpg);}
+.detail #keuken1{background-image:url(img/villa/keuken1.jpg);}
+.detail #eetkamer1{background-image:url(img/villa/eetkamer1.jpg);}
+.detail #atrium1{background-image:url(img/villa/atrium1.jpg);}
+.detail .video{background-color:#000;}
+.popover {z-index:999999 !important;}
+/* Einde popups en detailschermen */
+
+/* Begin extra info bij afbeeldingen */
+.infobutton{background-color:#040404;background-color: rgb(0, 0, 0);background-color: rgba(0, 0, 0, 0.6); width:30px;height:30px;float:left;border:1px #D9D9D9 solid; z-index:99999;}
+.infobutton p{font-family:Verdana, Geneva, sans-serif;color:#FFF !important; text-align:center;cursor:pointer;font-size:16px;padding-left:2px;padding-top:5px;}
+.caption{background-color:#040404;background-color: rgba(0, 0, 0, 0.6);color:#D9D9D9;padding:10px;font-size:11px;text-align:justify;}
+.caption_visible{background-color:#040404;background-color: rgba(0, 0, 0, 0.6) !important;color:#D9D9D9;padding:10px;font-size:11px;text-align:justify;}
+.uitgeklapt{top:300px;}
+/* Einde extra info bij afbeeldingen */
+
+/* Gallerij */
+/* Gallerij */
+#gallery {padding: 15px; overflow: hidden;width:90%;max-width:900px;}
+#thumbs {padding-bottom: 10px; overflow: hidden;}
+#thumbs img, #largeImage {border: 1px solid gray;padding: 4px;background-color: white;cursor: pointer;}
+#thumbs img {float: left;margin-right: 6px;}
+#panel { position: relative;height:100%;background-color:#6C6C6C;}
+#gallery #colosseum1{background-image:url(img/bouwwerken/colosseum1.jpg);}
+#gallery .afbeelding{height:500px; background-size:cover; background-repeat:no-repeat;}
+#gallery .imagecontainer{background-color:#FFF600;}
+.thumbnail {width:80px;height:80px; float:left; margin-right:10px;background-repeat:no-repeat; background-size:cover;cursor: pointer; border:2px solid #000;}
+#gallery .img {background-repeat:no-repeat; background-size:cover;border:2px solid #000;}
+.thumbnail:last-child{margin-right:0px;}
+#subura1{background-image:url(img/gallery/subura/subura1.jpg);}
+#subura2{background-image:url(img/gallery/subura/subura2.jpg);}
+#subura3{background-image:url(img/gallery/subura/subura3.jpg);}
+#palatijn{background-image:url(img/palatijn/palatijn.jpg);}
+#palatijn_paleis{background-image:url(img/palatijn/paleis.jpg);}
+.description{display:none;}
+.caption:first-child{display:block;}
+
+
+.orientation-instructions{background-color:#040404;position:fixed;height:100%;width:100%;z-index:9999999;background-image:url('img/draai_toestel.png');
+background-repeat:no-repeat;background-position:center;display:none;}
+
+.slideshow-info-content{font-size:10px !important; color:#FFF !important; opacity:1;line-height:1.1 !important;}

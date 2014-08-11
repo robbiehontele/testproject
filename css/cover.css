@@ -1,0 +1,113 @@
+#dot-matrix {
+    background: url(../img/dotted_matrix.png);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-image:url(../img/splashscreen.jpg);
+  background-size:cover;
+  color:#FEFEFE;
+  z-index: -2000;
+}
+body {
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+	position:static;
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  z-index:1001;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+  z-index:99999;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+
+  z-index:99999;
+}
+
+.inner h1{font-size:90px;}
+.inner p{font-size:28px;}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 0;
+  position:relative;
+  z-index:99999;  
+  padding-bottom:120px;
+}
+.instruction{
+	
+	color:#C51C00;
+	
+}
+
+
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+.footerimg{max-width:200px; text-align:center;}
+.ipad-instructions{padding-left:140px;position:fixed;max-width:450px;z-index:99999;display:none;}
+.orientation-instructions{background-color:#040404;position:fixed;height:100%;width:100%;z-index:9999999;background-image:url('../img/draai_toestel.png');
+background-repeat:no-repeat;background-position:center;display:none;}
